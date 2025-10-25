@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOME</title>
+  </head>
+  <body>
+    <h1>Course Registration Form</h1>
+    <form style="width: 420px" action="D:\HTML & CSS\Course Registration Form\index1.html">
+      <fieldset>
+        <legend>Personal Details</legend>
+          <table>
+            <tr>
+              <td><label for="fname">First Name</label></td>
+              <td>
+                <input
+                name="First Name"
+               
+                  type="text"
+                  placeholder="Eg: Prabhas"
+                  maxlength="25"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="sname" >Surname</label></td>
+              <td>
+                <input name="Surname"  placeholder="Eg: Uppalapati" required />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="phone">Mobile number</label></td>
+              <td>
+                <input name="mob" type="tel" placeholder="Eg: +91 1234567899" required />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email">Email</label></td>
+              <td>
+                <input
+
+                  name="Email"
+                  value=""
+                  type="email"
+                  placeholder="Eg: prabhas@gmail.com"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="password">Password</label></td>
+              <td>
+                <input
+                name="password"
+                  type="password"
+                  placeholder="Min 6 characters"
+                  minlength="6"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="cpassword">Conform Password</label></td>
+              <td>
+                <input
+                name="password"
+                  type="password"
+                  placeholder="Min 6 characters"
+                  minlength="6"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="date of birth">DOB</label></td>
+              <td><input name=" dob" type="date" required /></td>
+            </tr>
+            <tr>
+              <td><label for="gender">Gender</label></td>
+              <td>
+                <input type="radio" value="Male" name="gender" required />
+                <label for="">Male</label>
+                <input type="radio" value="Female" name="gender" required />
+                <label for="">Female</label>
+                <input type="radio" value="Others" name="gender" required />
+                <label for="">Others</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="country">Select Country</label></td>
+              <td>
+                <select>
+                  <option  value="">Select Country</option>
+                  <option value="INDIA">INDIA</option>
+                  <option value="USA">USA</option>
+                  <option value="UK">UK</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label  for="upload pic">Upload Picture</label></td>
+              <td><input name="uploadpic" type="file" /></td>
+            </tr>
+          </table>
+
+          <button type="reset">Reset</button>
+        </form>
+      </fieldset>
+    <br>
+    
+    
+      <form action="D:\HTML & CSS\Course Registration Form\index1.html" style="width: 420px">
+    <fieldset>  
+      <legend>Course Details</legend>
+        <table>
+          <tr>
+            <td><label for="">Select Course</label></td>
+            <td>
+              <select>
+                <option value="">Select Course</option>
+                <option value="Python Full Stack">Python Full Stack</option>
+                <option value="Java Full Stack">Java Full Stack</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="delivery">Delivery Mode</label></td>
+            <td>
+              <input type="radio" required value="ONLINE" name="delivery"/>
+              <label for="">ONLINE</label>
+              <input type="radio" required value="OFFLINE" name="delivery"/>
+              <label for="">OFFLINE</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="comments">Comments</label></td>
+            <td><textarea style="resize: none;" name="comments" id="" rows="5" cols="30"></textarea></td>
+          </tr>
+        </table>
+
+        <button type="submit">Submit</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
+
+
